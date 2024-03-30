@@ -1,12 +1,14 @@
-import React from 'react';
-import Home from '../Home/Home';
+
+import { Outlet } from 'react-router-dom';
+import Footer from '../Footer/Footer';
+import Navbar from '../Navbar/Navbar';
 
 const MainPath = () => {
     return (
         <div>
-            <h1>Heloo I am from main path</h1>
-            <Home> </Home>
-
+            <Navbar></Navbar>
+            <Outlet> </Outlet>
+            <Footer></Footer>
         </div>
     );
 };
