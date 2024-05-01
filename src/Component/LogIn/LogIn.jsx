@@ -50,7 +50,7 @@ const LogIn = () => {
         {
             user && <div>
             <h1>New Style</h1>
-            <h1> User : {user?.displayName}  </h1>
+            <h1> User : {user.displayName}  </h1>
         </div>
         }
       </div>
